@@ -104,7 +104,6 @@ ul.d-flex>li{
     max-width: calc(100% / 5);
     color: var(--primary-color);
     font-size: 0.8rem;
-    padding-bottom: 30px;
 }
 footer ul.d-flex{
     align-items: flex-start;
@@ -115,6 +114,7 @@ li>h3{
 }
 footer li{
     padding-top: 10px;
+    
 }
 div.bottom-footer{
     padding-top: 10px;
@@ -123,6 +123,7 @@ div.bottom-footer{
 }
 footer hr{
     border-color: var(--light-bg);
+    margin-top: 30px;
 }
 select{
     background-color: var(--bg-footer);
