@@ -104,7 +104,6 @@ ul.d-flex>li{
     max-width: calc(100% / 5);
     color: var(--primary-color);
     font-size: 0.8rem;
-    padding-top: 50px;
     padding-bottom: 30px;
 }
 footer ul.d-flex{
@@ -132,4 +131,10 @@ select{
 }
 footer li img{
     width:20px
+}
+footer div.container{
+    padding-top: 50px;
+}
+i{
+    padding: 10px;
 }
