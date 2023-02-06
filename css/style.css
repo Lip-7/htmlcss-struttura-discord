@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    /* Color styles */
+    --primary-color: #FFFFFF;
+    --bg-section: #F6F6F6;
+    --bg-footer: #23272A;
+    --dark-text: #000000;
+    --bg-header: #2A5EE8;
+    --light-bg: #7289DA;
+    }
