@@ -21,6 +21,9 @@
 .w-text{
     color: var(--primary-color);
 }
+.v-text{
+    color: var(--light-bg);
+}
 .button.white{
     background-color: var(--primary-color);
 }
@@ -50,6 +53,9 @@ a{
 .button.black{
     background-color: var(--bg-footer);
 }
+.button.blue{
+    background-color: var(--light-bg);
+}
 /* header */
 header{
     background-color: var(--bg-header);
@@ -60,7 +66,7 @@ header{
 ul{
     list-style: none;
 }
-li{
+header li{
     margin: 30px;
 }
 nav.d-flex{
@@ -93,4 +99,29 @@ article{
 /* footer */
 footer{
     background-color: var(--bg-footer);
+}
+ul.d-flex>li{
+    max-width: calc(100% / 5);
+    color: var(--primary-color);
+    font-size: 0.8rem;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+footer ul.d-flex{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+li>h3{
+    font-size: 1.7rem;
+}
+footer li{
+    padding-top: 10px;
+}
+div.bottom-footer{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+}
+footer hr{
+    border-color: var(--light-bg);
 }
