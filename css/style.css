@@ -83,9 +83,6 @@ section h1{
     padding: 20px;
     font-size: 2.5rem;
 }
-section p{
-    padding:10px;
-}
 .header-buttons{
     padding-bottom: 90px;
 }
@@ -93,8 +90,24 @@ section p{
 h2{
     font-size: 2.5rem;
 }
+section p{
+    padding-top:20px;
+}
 article{
     max-width: 25%;
+}
+article.maxed{
+    max-width: 80%;
+    text-align: center;
+}
+main>div:nth-child(even){
+    background-color: var(--bg-section);
+}
+.flexed-article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 }
 /* footer */
 footer{
