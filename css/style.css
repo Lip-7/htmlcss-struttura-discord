@@ -125,3 +125,11 @@ div.bottom-footer{
 footer hr{
     border-color: var(--light-bg);
 }
+select{
+    background-color: var(--bg-footer);
+    color: var(--primary-color);
+    border:0px;
+}
+footer li img{
+    width:20px
+}
